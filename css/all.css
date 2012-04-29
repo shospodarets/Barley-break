@@ -1,0 +1,122 @@
+body{
+	margin:0;
+	font:11px/13px Arial, Tahoma, Verdana, sans-serif;
+	color:#000;
+	background:#dbe4f1;
+}
+a{
+	color:#6c6c6c;
+	text-decoration:none;
+}
+a:hover{text-decoration:underline;}
+img{border-style:none;}
+input,textarea,select{
+	font:100% Arial, Verdana, Helvetica, sans-serif;
+	vertical-align:middle;
+}
+form,fieldset{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+#wrapper h1{
+	font-size:22px;
+	line-height:24px;
+	margin:0;
+	padding:10px 0 20px;
+	text-align:center;
+}
+#avatars-holder{
+	width:100%;
+	background:#dbe4f1;
+}
+#avatars-holder:after{
+	content:'';	display:block;	clear:both;
+}
+#avatars-holder .box{
+	width:59px;
+	height:59px;
+	float:left;
+	position:relative;
+}
+#avatars-holder .move-elements-horizontal{cursor:e-resize;}
+#avatars-holder .move-elements-vertical{cursor:s-resize;}
+#avatars-holder .move-elements-both{cursor:move;}
+#avatars-holder .selection{
+	width:59px;
+	height:59px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:20;
+	background:url(../images/none.gif);
+}
+#avatars-holder .box img{
+	width:48px;
+	height:48px;
+}
+.btns-container{
+	width:100%;
+	overflow:hidden;
+	font-size:21px;
+	line-height:35px;
+	padding-top:40px;
+}
+.links-wrapper{
+	width:100%;
+	padding:20px 0 0;	margin:0;	list-style:none;
+}
+.links-wrapper li{width:100%;}
+.forms-sets{
+	width:100%;
+	overflow:hidden;
+	padding-top:10px;
+}
+.title{
+	text-align:right;
+	float:left;
+	padding-right:20px;
+	width:220px;
+}
+.forms-sets label{
+	float:left;
+	margin-right:10px;
+	text-transform:uppercase;
+}
+.forms-sets input{
+	padding:0;
+	margin:0 5px 0 0;
+	float:left;
+}
+.forms-sets .radio{
+	width:15px;
+	height:16px;
+	margin-right:3px;
+}
+.rounded-btn{
+	float:left;
+	color:#fff;
+	font-weight:bold;
+}
+.rounded-btn:hover,
+.rounded-btn:hover *{
+	text-decoration:underline;
+}
+.rounded-btn .left,
+.rounded-btn .right,
+.rounded-btn .center{
+	float:left;
+	background:url(../images/bg-btn-l.gif) no-repeat;
+	width:7px;
+	height:15px;
+}
+.rounded-btn .right{background:url(../images/bg-btn-r.gif) no-repeat;}
+.rounded-btn .center{
+	padding:0 5px;
+	background:url(../images/bg-btn-c.gif) repeat-x;
+	width:auto;
+}
